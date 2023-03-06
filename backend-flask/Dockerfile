@@ -16,6 +16,8 @@ RUN pip3 install -r requirements.txt
 # everything current directory. insider and outsider backend-flask
 COPY . .
 
+# ENV VARS
+#inside container
 ENV FLASK_ENV=development
 
 EXPOSE ${PORT}
